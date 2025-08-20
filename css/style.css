@@ -1,0 +1,34 @@
+body {
+  background-color: #ddd;
+}
+
+nav {
+  background-color: #145;
+}
+
+/* Botão padrão "Saiba mais..." */
+.btn {
+  background-color: #7C9B6B;
+  color: #fff;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+.btn:hover {
+  background-color: #EC8B3B;
+}
+
+/* Botão "Inscrever-se" no footer */
+/* Mais destacado, com fundo laranja e hover verde escuro */
+.btn-inscrever {
+  background-color: #145374;
+  color: #fff;  
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  white-space: nowrap;
+}
+
+.btn-inscrever:hover {
+  background-color: #103d54;
+  color: #fff;
+}
+
